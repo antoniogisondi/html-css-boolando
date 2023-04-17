@@ -3,3 +3,49 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* HEADER STYLES */
+header{
+    background-color: rgba(255,105,0,255);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.h-row{
+    width: calc(100% - 400px);
+    margin: 15px 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.col-30{
+    width: 30%;
+    color: white;
+    font-size: 10px;
+}
+
+.col-40{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.col-30-2{
+    width: 30%;
+    display: flex;
+    justify-content:flex-end;
+    color: white;
+}
+
+i{
+    margin-right: 5px;
+}
+
+img{
+    width: 80px;
+    height: 20px;
+}
+/* END HEADER STYLES */
